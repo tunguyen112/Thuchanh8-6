@@ -3,7 +3,7 @@ import pickle as pkl
 import numpy as np
 from PIL import Image
 
-class_list = {'0': 'Male', '1': 'Female'}
+class_list = {'1': 'Male', '0': 'Female'}
 st.title("Predict Genders for Vietnamese Names")
 
 input_ec = open('ec_vinames.pkl', 'rb')
